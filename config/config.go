@@ -15,6 +15,7 @@ type BotConfig struct {
 		WhatsappSessionFile      string `yaml:"whatsapp_session_file"`
 		DiscordOAuthClientID     string `yaml:"discord_oauth_client_id"`
 		DiscordOAuthClientSecret string `yaml:"discord_oauth_client_secret"`
+		WhiteStarStatistic       string `yaml:"white_star_statistic"`
 	} `yaml:"token"`
 	Logger struct {
 		Token   string `yaml:"token"`
