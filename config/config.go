@@ -60,6 +60,6 @@ func (b *BotConfig) GetDnsLan() string {
 		return ""
 	}
 	dns := fmt.Sprintf("postgres://%s:%s@%s/%s?sslmode=disable",
-		b.Postgres.Username, b.Postgres.Password, "Dell:5433", b.Postgres.Name)
+		b.Postgres.Username, b.Postgres.Password, "Dell:5434", b.Postgres.Name)
 	return dns
 }
